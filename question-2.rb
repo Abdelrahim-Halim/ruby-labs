@@ -1,13 +1,14 @@
 #!/usr/bin/ruby
 def fun()
     puts "plz, Enter first_num: "
-    x= gets.chomp.to_i
+    f_num= gets.chomp.to_i
     puts "plz, Enter second_num: "
-    y= gets.chomp.to_i
-    if x != y
-        return x + y
+    s_num= gets.chomp.to_i
+    res = f_num + s_num
+    if f_num == s_num
+        return 2 * res
     else
-        return 2 * ( x + y )
+        return res
     end
 end
 
