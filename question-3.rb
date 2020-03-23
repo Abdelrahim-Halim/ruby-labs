@@ -2,10 +2,11 @@
 def fun()
     puts "plz, enter a number: "
     num= gets.chomp.to_i
+    diff = (num - 21).abs
     if num > 21
-        return (2*(num - 21)).abs
+        return (2* diff)
     else
-        return (num-21).abs
+        return diff
     end
 end
 
