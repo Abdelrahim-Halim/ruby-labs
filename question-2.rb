@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 def fun()
     puts "plz, Enter first_num: "
     x= gets.chomp.to_i
