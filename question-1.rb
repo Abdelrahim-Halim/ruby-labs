@@ -9,4 +9,4 @@ def fun()
     end 
 end 
 
-fun()
+p fun()
